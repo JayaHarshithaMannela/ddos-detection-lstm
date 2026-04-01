@@ -127,5 +127,5 @@ for label, acc in zip(labels, class_accuracy):
 # ---------------- SAVE MODEL ----------------
 model.save("model/multiclass_model.keras")
 
-print("\nModel saved at model/multiclass_model5.keras")
-print("Scaler saved at model/multiclass_scaler5.pkl")
+print("\nModel saved at model/multiclass_model.keras")
+print("Scaler saved at model/multiclass_scaler.pkl")
